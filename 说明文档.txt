@@ -1,0 +1,26 @@
+推荐使用：谷歌浏览器
+
+网址：http://localhost:8080/jiuyexinxiwang/jsp/login.jsp 后台管理
+	  http://localhost:8080/jiuyexinxiwang/front/pages/login/login.jsp 前台展示
+
+
+管理员  admin  密码：admin    
+
+管理可以看到其他需要登录账号的个人信息和密码
+
+如果添加数据或者出现其他的问题 
+ 
+ 
+在/src/main/resources/config.properties中编辑
+											
+	jdbc_url=jdbc:mysql://127.0.0.1:3306/jiuyexinxiwang?useUnicode=true&characterEncoding=UTF-8&tinyInt1isBit=false
+	jdbc_username=root	    数据库用户名 root
+	jdbc_password=123456	用户密码    123456
+
+
+图片存放路径： src\main\webapp\upload 里面上传图片名里面不能有中文
+
+
+
+
+  
